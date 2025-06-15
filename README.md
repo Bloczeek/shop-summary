@@ -21,7 +21,7 @@ Lekka aplikacja CLI/web do generowania podsumowań sprzedaży.
 
 ---
 
-## 📝 Opis 
+### 📝 Opis 
 
 „Shop‑Summary” to narzędzie do agregowania i wizualizowania danych sprzedażowych. Obsługuje różne źródła (CSV, API), umożliwiając:
 
@@ -31,7 +31,7 @@ Lekka aplikacja CLI/web do generowania podsumowań sprzedaży.
 
 ---
 
-## ✅ Funkcjonalności
+### ✅ Funkcjonalności
 
 - import danych sprzedażowych z plików,
 - filtrowanie wg dat, klientów, kategorii produktów,
@@ -61,7 +61,7 @@ Lekka aplikacja CLI/web do generowania podsumowań sprzedaży.
 
 ---
 
-## ⚙️ Konfiguracja
+### ⚙️ Konfiguracja
 
 Plik `config.yml` przykładowo:
 ```yaml
@@ -98,7 +98,7 @@ shop-summary analyse \
 
 ---
 
-## 📈 Przykłady
+### 📈 Przykłady
 
 - Podsumowanie miesięczne do JSON:
   ```bash
@@ -107,7 +107,7 @@ shop-summary analyse \
 
 ---
 
-##🧪 Testy
+###🧪 Testy
 
 Uruchom zestaw testów:
 ```bash
@@ -117,7 +117,7 @@ npm test            # JavaScript/TypeScript
 
 ---
 
-## 🏗️ Architektura
+### 🏗️ Architektura
 
 - **CLI**: moduł `cli/*`
 - **Backend**: `backend/` – logika przetwarzania danych, API
@@ -126,7 +126,7 @@ npm test            # JavaScript/TypeScript
 
 ---
 
-## 🤝 Wkład
+###🤝 Wkład
 
 1. Sklonuj i utwórz branch:
    ```bash
@@ -137,7 +137,7 @@ npm test            # JavaScript/TypeScript
 
 ---
 
-## 📄 Licencja
+### 📄 Licencja
 
 Projekt na licencji MIT – więcej w pliku LICENSE.
 
