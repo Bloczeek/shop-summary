@@ -21,7 +21,7 @@ Lekka aplikacja CLI/web do generowania podsumowań sprzedaży.
 
 ---
 
-## 📝 Opis
+##opis 📝 
 
 „Shop‑Summary” to narzędzie do agregowania i wizualizowania danych sprzedażowych. Obsługuje różne źródła (CSV, API), umożliwiając:
 
@@ -31,7 +31,7 @@ Lekka aplikacja CLI/web do generowania podsumowań sprzedaży.
 
 ---
 
-## ✅ Funkcjonalności
+##funkcjonalności ✅ Funkcjonalności
 
 - import danych sprzedażowych z plików,
 - filtrowanie wg dat, klientów, kategorii produktów,
@@ -41,7 +41,7 @@ Lekka aplikacja CLI/web do generowania podsumowań sprzedaży.
 
 ---
 
-## 🛠️ Instalacja
+##instalacja 🛠️ Instalacja
 
 1. Sklonuj repozytorium:
    ```bash
@@ -61,7 +61,7 @@ Lekka aplikacja CLI/web do generowania podsumowań sprzedaży.
 
 ---
 
-## ⚙️ Konfiguracja
+##konfiguracja ⚙️ Konfiguracja
 
 Plik `config.yml` przykładowo:
 ```yaml
@@ -79,9 +79,9 @@ export:
 
 ---
 
-## 🚀 Użycie
+##użycie 🚀 Użycie
 
-### CLI
+###cli CLI
 
 ```bash
 shop-summary analyse \
@@ -90,7 +90,7 @@ shop-summary analyse \
   --output summary_may_2025.json
 ```
 
-### Interfejs webowy
+###interfejs‑webowy Interfejs webowy
 
 1. Uruchom backend i frontend.
 2. Odwiedź `http://localhost:8080`.
@@ -98,7 +98,7 @@ shop-summary analyse \
 
 ---
 
-## 📈 Przykłady
+##przykłady 📈 Przykłady
 
 - Podsumowanie miesięczne do JSON:
   ```bash
@@ -107,7 +107,7 @@ shop-summary analyse \
 
 ---
 
-## 🧪 Testy
+##testy🧪 Testy
 
 Uruchom zestaw testów:
 ```bash
@@ -117,7 +117,7 @@ npm test            # JavaScript/TypeScript
 
 ---
 
-## 🏗️ Architektura
+##architektura 🏗️ Architektura
 
 - **CLI**: moduł `cli/*`
 - **Backend**: `backend/` – logika przetwarzania danych, API
@@ -126,7 +126,7 @@ npm test            # JavaScript/TypeScript
 
 ---
 
-## 🤝 Wkład
+##wkład 🤝 Wkład
 
 1. Sklonuj i utwórz branch:
    ```bash
@@ -137,7 +137,7 @@ npm test            # JavaScript/TypeScript
 
 ---
 
-## 📄 Licencja
+##licencja 📄 Licencja
 
 Projekt na licencji MIT – więcej w pliku LICENSE.
 
